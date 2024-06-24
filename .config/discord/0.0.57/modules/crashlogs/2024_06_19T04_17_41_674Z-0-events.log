@@ -1,0 +1,8 @@
+2024-06-19T04:17:41.688Z 0: 
+
+----------------------------------------------
+2024-06-19T04:17:41.816Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.57"}, modulepath: /home/dxomg/.config/discord/0.0.57/modules
+2024-06-19T04:17:41.837Z 2: ✅ webContents.created web1 ""
+2024-06-19T04:17:41.856Z 3: ✅ window.created win1 "discord"
+2024-06-19T04:17:42.806Z 4: ✅ webContents.did-finish-load web1
+2024-06-19T04:17:43.517Z 5: window.close win1

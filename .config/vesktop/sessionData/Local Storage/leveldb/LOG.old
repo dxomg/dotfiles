@@ -1,0 +1,7 @@
+2024/06/24-12:48:10.007 54bd Reusing MANIFEST /home/dxomg/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2024/06/24-12:48:10.012 54bd Recovering log #1355
+2024/06/24-12:48:10.012 54bd Level-0 table #1359: started
+2024/06/24-12:48:10.151 54bd Level-0 table #1359: 39091 bytes OK
+2024/06/24-12:48:10.152 54bd Recovering log #1359
+2024/06/24-12:48:10.153 54bd Reusing old log /home/dxomg/.config/vesktop/sessionData/Local Storage/leveldb/001359.log 
+2024/06/24-12:48:10.201 54bd Delete type=0 #1355

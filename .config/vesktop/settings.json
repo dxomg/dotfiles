@@ -1,0 +1,11 @@
+{
+    "discordBranch": "stable",
+    "arRPC": "on",
+    "splashColor": "oklab(0.899401 -0.00192499 -0.00481987)",
+    "splashBackground": "rgb(35, 4, 49)",
+    "minimizeToTray": false,
+    "spellCheckLanguages": [
+        "en-US",
+        "en"
+    ]
+}

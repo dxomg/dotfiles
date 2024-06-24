@@ -1,0 +1,24 @@
+2024/06/23-12:43:28.198 1547 Reusing MANIFEST /home/dxomg/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/06/23-12:43:28.199 1547 Recovering log #39
+2024/06/23-12:43:28.245 1547 Reusing old log /home/dxomg/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000039.log 
+2024/06/23-12:43:29.116 1546 Level-0 table #44: started
+2024/06/23-12:43:29.141 1546 Level-0 table #44: 772588 bytes OK
+2024/06/23-12:43:29.154 1546 Delete type=0 #39
+2024/06/23-12:43:29.154 1556 Manual compaction at level-0 from '\x00\x17\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x18\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/06/23-12:43:30.453 1547 Compacting 1@1 + 1@2 files
+2024/06/23-12:43:30.526 1547 Generated table #45@1: 34321 keys, 2206956 bytes
+2024/06/23-12:43:30.526 1547 Compacted 1@1 + 1@2 files => 2206956 bytes
+2024/06/23-12:43:30.547 1547 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/06/23-12:43:36.297 1547 Level-0 table #47: started
+2024/06/23-12:43:36.308 1547 Level-0 table #47: 146299 bytes OK
+2024/06/23-12:43:36.321 1547 Delete type=2 #41
+2024/06/23-12:43:36.321 1547 Delete type=0 #43
+2024/06/23-12:43:36.321 1547 Delete type=2 #44
+2024/06/23-12:43:36.321 1547 Manual compaction at level-0 from '\x00\x18\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x19\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/06/23-12:43:37.655 1547 Compacting 1@1 + 1@2 files
+2024/06/23-12:43:37.738 1547 Generated table #48@1: 34125 keys, 2217546 bytes
+2024/06/23-12:43:37.747 1547 Generated table #49@1: 1712 keys, 35674 bytes
+2024/06/23-12:43:37.747 1547 Compacted 1@1 + 1@2 files => 2253220 bytes
+2024/06/23-12:43:37.758 1547 compacted to: files[ 0 0 2 0 0 0 0 ]
+2024/06/23-12:43:37.759 1547 Delete type=2 #47
+2024/06/23-12:43:37.759 1547 Delete type=2 #45

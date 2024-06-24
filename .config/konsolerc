@@ -1,0 +1,8 @@
+[Desktop Entry]
+DefaultProfile=pinky.profile
+
+[General]
+ConfigVersion=1
+
+[MainWindow]
+ToolBarsMovable=Disabled

@@ -1,0 +1,4 @@
+2024/06/23-02:19:50.012 1836e6 Creating DB /home/dxomg/.config/Termius Beta/Local Storage/leveldb since it was missing.
+2024/06/23-02:19:50.071 1836e6 Reusing MANIFEST /home/dxomg/.config/Termius Beta/Local Storage/leveldb/MANIFEST-000001
+2024/06/23-02:25:58.025 186885 Level-0 table #5: started
+2024/06/23-02:25:58.260 186885 Level-0 table #5: 34421 bytes OK

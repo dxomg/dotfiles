@@ -1,0 +1,5 @@
+2024/06/24-12:49:28.195 5ed4 Reusing MANIFEST /home/dxomg/.config/vesktop/sessionData/Session Storage/MANIFEST-000001
+2024/06/24-12:49:28.195 5ed4 Recovering log #3
+2024/06/24-12:49:28.195 5ed4 (ignoring error) /home/dxomg/.config/vesktop/sessionData/Session Storage/000003.log: dropping 32369 bytes; Corruption: checksum mismatch
+2024/06/24-12:49:28.195 5ed4 (ignoring error) /home/dxomg/.config/vesktop/sessionData/Session Storage/000003.log: dropping 364 bytes; Corruption: missing start of fragmented record(2)
+2024/06/24-12:49:28.195 5ed4 Reusing old log /home/dxomg/.config/vesktop/sessionData/Session Storage/000003.log 

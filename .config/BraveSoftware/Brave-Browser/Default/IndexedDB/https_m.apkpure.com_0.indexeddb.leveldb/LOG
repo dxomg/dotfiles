@@ -1,0 +1,6 @@
+2024/06/22-03:10:02.555 339d Creating DB /home/dxomg/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_m.apkpure.com_0.indexeddb.leveldb since it was missing.
+2024/06/22-03:10:02.629 339d Reusing MANIFEST /home/dxomg/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_m.apkpure.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/06/22-03:10:09.023 339d Level-0 table #5: started
+2024/06/22-03:10:09.034 339d Level-0 table #5: 157399 bytes OK
+2024/06/22-03:10:09.048 339d Delete type=0 #3
+2024/06/22-03:10:09.049 339d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,1272 @@
+/* ------------------------------------------ */
+/* -------------- Music Player -------------- */
+/* ------------------------------------------ */
+button {
+  background-color: #3b2163;
+  color: #b8e8ff;
+  border-color: #3b2163; }
+
+button:hover {
+  background-color: #ffedae;
+  color: #20004a;
+  border-color: #ffedae; }
+
+/* -------------------------------------------- */
+/* -------------- Desktop Widget -------------- */
+/* -------------------------------------------- */
+.my-weather-wd-text {
+  font-size: medium;
+  color: #20004a; }
+
+.weather-wd-row-one {
+  background: rgba(198, 141, 241, 0.7);
+  border-radius: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem; }
+
+.my-desktop-music-box {
+  background: linear-gradient(to right, #5812db, #8f1767);
+  border-radius: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-right: 1.2rem;
+  padding-left: 1rem;
+  min-width: 1rem;
+  margin: 1rem;
+  margin-top: 0.5rem; }
+
+.my-weather-wd-icon {
+  color: #20004a;
+  font-size: xx-large;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-family: "FantasqueSansM Nerd Font Propo"; }
+
+.my-wd-user-icon {
+  padding: 0.8rem;
+  margin-right: 1rem;
+  border-radius: 1rem; }
+
+.my-weather-wd-title-text-box {
+  min-width: 10.55rem;
+  padding-top: 1rem;
+  color: #20004a;
+  font-size: x-large;
+  font-family: "VIP Rawy Regular"; }
+
+.my-weather-wd-row-two {
+  background: #20004a;
+  margin: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-radius: 1rem; }
+
+.my-fuzzy-clock-box {
+  background: rgba(255, 239, 176, 0.7);
+  margin: 1rem;
+  margin-bottom: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1.5rem;
+  padding-left: 1rem;
+  border-radius: 1rem; }
+
+.my-wd-weather-day-name {
+  font-family: "VIP Rawy Regular";
+  color: #20004a; }
+
+.my-wd-weather-day-text {
+  font-size: x-small;
+  padding-bottom: 0rem;
+  color: #20004a; }
+
+.my-weather-wd-day-icon {
+  background: rgba(59, 33, 99, 0.7);
+  color: #cecece;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  border-radius: 1rem;
+  margin-bottom: 0.2rem;
+  min-width: 3rem;
+  min-height: 3.5rem;
+  font-size: x-large;
+  font-family: "FantasqueSansM Nerd Font Propo"; }
+
+.my-weather-wd-day-box {
+  background: #c68df1;
+  border-radius: 1rem;
+  padding-top: 0.4rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem; }
+
+.unset {
+  all: unset; }
+
+.workspaces button:active {
+  color: #ffedae;
+  border-radius: 0px; }
+
+.workspaces {
+  padding-right: 4px;
+  padding-left: 4px;
+  margin-top: 0.3rem;
+  margin-bottom: 0.4rem;
+  background: #0c0023;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1.1rem; }
+
+.dynamic-wallpaper {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  padding: 0rem 1rem; }
+
+.workspaces:dir(rtl) {
+  margin-right: 0.4rem;
+  margin-left: 0.5rem; }
+
+.workspaces:dir(ltr) {
+  margin-right: 0.5rem;
+  margin-left: 0.4rem; }
+
+.workspaces button {
+  background: #0c0023;
+  color: #c68df1;
+  border: 0rem; }
+
+.workspaces button.focused {
+  border-bottom: 1px solid #ffedae;
+  color: #ffedae;
+  font-family: "FantasqueSansM Nerd Font Propo";
+  border-radius: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0.8rem;
+  padding-left: 0.8rem;
+  font-size: large; }
+
+.workspaces button.unfocused {
+  font-family: "FantasqueSansM Nerd Font Propo";
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0.8rem;
+  padding-left: 0.8rem;
+  border-radius: 0px;
+  font-size: large; }
+
+.workspaces button.has-windows {
+  color: #ffedae; }
+
+.workspaces button:hover {
+  background: rgba(198, 141, 241, 0.9);
+  color: rgba(12, 0, 35, 0.9); }
+
+.clock {
+  background: linear-gradient(to right, #9359ff, #ff00aa, #ffb92d);
+  color: #0c0023;
+  border-radius: 1rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  padding-left: 1em;
+  padding-right: 1em; }
+
+.bar-weather-box {
+  font-size: 1em;
+  background: linear-gradient(to right, #fe7c00, #cdd4af);
+  color: #0c0023;
+  border-radius: 1rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem; }
+
+.bar-weather-box:dir(rtl) {
+  padding-left: 0.8rem; }
+
+.bar-weather-box:dir(ltr) {
+  padding-right: 0.8rem; }
+
+.bar-weather-icon {
+  font-family: "FantasqueSansM Nerd Font Propo";
+  font-size: 1.4rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem; }
+
+.top-corner {
+  background-color: #20004a;
+  border-radius: 1rem; }
+
+.bar-bg {
+  background: rgba(0, 0, 0, 0);
+  min-height: 8px;
+  border-radius: 0rem; }
+
+.bar {
+  background: #20004a;
+  color: #cecece;
+  min-height: 8px;
+  margin-bottom: 0.5rem; }
+
+.internet-box {
+  background: linear-gradient(to right, #ffb92d, #ff00aa);
+  color: #20004a;
+  /* min-width: 100px; */
+  border-radius: 1rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem; }
+
+.internet-box:dir(rtl) {
+  margin-left: 0.5rem;
+  padding-right: 0.8rem; }
+
+.internet-box:dir(ltr) {
+  margin-right: 0.5rem;
+  padding-left: 0.8rem; }
+
+.wifi-name-label {
+  /* margin-left: 0.7em; */
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  background: #20004a;
+  color: #cecece;
+  font-weight: bold; }
+
+.wifi-name-label:dir(rtl) {
+  padding-left: 0.5em;
+  padding-right: 1em;
+  margin-right: 0.2em;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem; }
+
+.wifi-name-label:dir(ltr) {
+  padding-right: 0.5em;
+  padding-left: 1em;
+  margin-left: 0.2em;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem; }
+
+.wifi-icon-strength {
+  font-family: "FantasqueSansM Nerd Font Propo";
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  background: #20004a;
+  color: #cecece; }
+
+.wifi-icon-strength:dir(rtl) {
+  margin-left: 0.2rem;
+  padding-right: 0.2rem;
+  padding-left: 0.6rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem; }
+
+.wifi-icon-strength:dir(ltr) {
+  margin-right: 0.2rem;
+  padding-left: 0.2rem;
+  padding-right: 0.6rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem; }
+
+.systray {
+  background: #3b2163;
+  border-radius: 1rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  min-height: 0.1rem; }
+
+.systray:dir(rtl) {
+  margin-left: 0.5rem; }
+
+.systray:dir(ltr) {
+  margin-right: 0.5rem; }
+
+.systray button {
+  background: #3b2163;
+  border-radius: 1rem;
+  padding-right: 0.4rem;
+  padding-left: 0.4rem;
+  min-height: 0.1rem; }
+
+.systray button:hover {
+  background: #ffedae; }
+
+.tray-btn {
+  border: 0rem; }
+
+.bar-hardware-progress-circle, .brightness, .volume, .ram, .temp, .cpu, .battery {
+  min-width: 1.45rem;
+  min-height: 1.3rem;
+  font-size: 0.1rem; }
+
+.bar-hardware-progress-inner-circle, .brightness-inner, .volume-inner, .temp-inner, .cpu-inner, .battery-inner-charging, .battery-inner {
+  font-family: "FantasqueSansM Nerd Font Propo";
+  font-size: 0.9rem; }
+
+.battery {
+  background: #0c0023;
+  color: #ff8580; }
+
+@keyframes colorChange {
+  0% {
+    color: #ff8580; }
+  50% {
+    color: #0c0023; }
+  100% {
+    color: #ff8580; } }
+
+.battery-inner {
+  color: #ff8580; }
+
+.battery-inner-charging {
+  color: #ff8580;
+  animation: colorChange 2s infinite; }
+
+/* --------------------------------- */
+/* -------------- CPU -------------- */
+/* --------------------------------- */
+.cpu {
+  background: #0c0023;
+  color: #fdc227; }
+
+.cpu-inner {
+  font-size: 0.6rem;
+  color: #fdc227; }
+
+/* ---------------------------------- */
+/* -------------- TEMP -------------- */
+/* ---------------------------------- */
+.temp {
+  background: #0c0023;
+  color: #c68df1; }
+
+.no-hover:hover {
+  all: unset; }
+
+.temp-inner {
+  color: #c68df1; }
+
+/* --------------------------------- */
+/* -------------- RAM -------------- */
+/* --------------------------------- */
+.ram {
+  background: #0c0023;
+  color: #b8e8ff; }
+
+.ram-inner {
+  font-family: "FantasqueSansM Nerd Font Propo";
+  font-size: 0.6rem;
+  color: #b8e8ff; }
+
+.volume {
+  background: #0c0023;
+  color: #b8e8ff; }
+
+.volume-inner {
+  font-size: 0.8rem;
+  color: #b8e8ff; }
+
+.brightness {
+  background: #0c0023;
+  color: #fdc227; }
+
+.brightness-inner {
+  color: #fdc227;
+  margin-top: 0.1rem; }
+
+/* ------------------------------------------ */
+/* -------------- Hardware box -------------- */
+/* ------------------------------------------ */
+.hardware-box {
+  background: #0c0023;
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem; }
+
+.bar-hw-temp-box:dir(rtl) {
+  margin-right: 0.5rem; }
+
+.bar-hw-temp-box:dir(ltr) {
+  margin-left: 0.5rem; }
+
+.bar-hw-ram-box:dir(rtl) {
+  margin-left: 0.5rem; }
+
+.bar-hw-ram-box:dir(ltr) {
+  margin-right: 0.5rem; }
+
+.bar-hw-cpu-box:dir(rtl) {
+  margin-left: 0.5rem; }
+
+.bar-hw-cpu-box:dir(ltr) {
+  margin-right: 0.5rem; }
+
+.bar-hw-brightness-box:dir(rtl) {
+  margin-right: 0.4rem; }
+
+.bar-hw-brightness-box:dir(ltr) {
+  margin-left: 0.4rem; }
+
+.hardware-box-separator {
+  min-height: 0.01rem;
+  min-width: 0.01rem;
+  background: rgba(198, 141, 241, 0.4);
+  margin: -0.2rem 0.5rem; }
+
+.hardware-menu-box {
+  background: #20004a;
+  border-radius: 1rem;
+  border: 2px solid #fdbbc4;
+  padding: 1rem; }
+
+.hardware-menu-header-box {
+  background: #0c0023;
+  border-radius: 1rem;
+  padding: 0.5rem; }
+
+.hardware-menu-power-profile-box {
+  background: #0c0023;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin-left: 0.5rem; }
+
+.power-profiles-box-btn {
+  margin: 0.3rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0); }
+
+.power-profiles-box-btn-active {
+  background: #ffedae;
+  color: #20004a;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0); }
+
+.hardware-menu-box-progress, .menu-temp, .menu-battery, .menu-ram, .menu-cpu {
+  font-size: 0.5rem;
+  min-width: 6.5rem;
+  min-height: 6.5rem;
+  margin: 1rem; }
+
+.hardware-menu-box-icon, .menu-temp-icon, .menu-battery-icon-charging, .menu-battery-icon, .menu-ram-icon, .menu-cpu-icon {
+  font-family: "FantasqueSansM Nerd Font Propo";
+  font-size: 2rem; }
+
+.menu-cpu {
+  color: #fdc227; }
+
+.menu-cpu-icon {
+  color: #fdc227; }
+
+.menu-ram {
+  color: #b8e8ff; }
+
+.menu-ram-icon {
+  color: #b8e8ff; }
+
+.menu-battery {
+  color: #ff8580; }
+
+.menu-battery-icon {
+  color: #ff8580; }
+
+.menu-battery-icon-charging {
+  color: #ff8580;
+  animation: colorChange 2s infinite; }
+
+.menu-temp {
+  color: #c68df1; }
+
+.menu-temp-icon {
+  color: #c68df1; }
+
+.table-row-app-name-header {
+  min-width: 6rem; }
+
+.table-row-app-percentage-header {
+  min-width: 3rem; }
+
+.table-row-app-name {
+  min-width: 6rem; }
+
+.table-row-app-percentage {
+  min-width: 3rem; }
+
+.hardware-cpu-box {
+  background: linear-gradient(to top, #ffedae, #c68df1);
+  color: #20004a;
+  border-radius: 1rem;
+  margin-top: 1rem; }
+
+.hardware-cpu-table-row-header {
+  padding: 1rem;
+  background: #c68df1;
+  color: #20004a;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem; }
+
+.hardware-table-row, .hardware-os-table-row, .hardware-bat-table-row, .hardware-ram-table-row, .hardware-cpu-table-row {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem; }
+
+.hardware-ram-box {
+  background: linear-gradient(to top, #e952ed, #4f92b4);
+  color: #20004a;
+  border-radius: 1rem;
+  margin-top: 1rem; }
+
+.hardware-ram-table-row-header {
+  padding: 1rem;
+  background: #5d86b9;
+  color: #0c0023;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem; }
+
+.hardware-menu-tables-box {
+  background: #0c0023;
+  padding: 0.8rem;
+  padding-top: 0rem;
+  margin-top: 0.8rem;
+  border-radius: 1rem; }
+
+.hardware-bat-box {
+  background: #faab78;
+  color: #211008;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  min-height: 3rem; }
+
+.hardware-bat-table-row-header {
+  padding: 1rem;
+  background: #db976a;
+  color: #211008;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem; }
+
+.hardware-os-box {
+  background: rgba(198, 141, 241, 0.9);
+  color: #211008;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  min-height: 3rem; }
+
+.hardware-os-table-row-header {
+  padding: 1rem;
+  background: rgba(198, 141, 241, 0.8);
+  color: #211008;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem; }
+
+.power-profiles-title {
+  margin-left: 1rem;
+  margin-right: 1rem; }
+
+.volume {
+  border-radius: 1rem;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  padding-left: 1em;
+  padding-right: 1em; }
+
+.vol-stack:dir(rtl) {
+  margin-left: 1rem; }
+
+.vol-stack:dir(ltr) {
+  margin-right: 1rem; }
+
+.vol-osd {
+  background: #20004a;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 2px solid #fdbbc4;
+  margin: 1.5rem; }
+
+.vol-osd:dir(rtl) {
+  padding-left: 1.5rem; }
+
+.vol-osd:dir(ltr) {
+  padding-right: 1.5rem; }
+
+scale trough highlight {
+  border-radius: 1rem;
+  background: #ffedae; }
+
+scale slider {
+  background: #ffedae; }
+
+.language-layout-label {
+  border-radius: 1rem;
+  padding: 0rem 1rem; }
+
+.language-layout-icon {
+  font-family: "FantasqueSansM Nerd Font Propo";
+  font-size: 2rem; }
+
+.language-layout-box {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 2px solid #fdbbc4;
+  margin: 1.5rem;
+  background: #20004a;
+  color: #cecece; }
+
+.notifications-revealer-box {
+  background: #3b2163;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  border-radius: 1rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  background: #fff;
+  min-width: 100rem; }
+
+.notifications-revealer-box:dir(rtl) {
+  margin-left: 0.7rem;
+  margin-right: 0rem; }
+
+.notifications-revealer-box:dir(ltr) {
+  margin-right: 0.7rem;
+  margin-left: 0rem; }
+
+.notification-popups {
+  border: 2px solid #ffedae;
+  border-radius: 1rem;
+  padding: 1rem;
+  background: #20004a;
+  color: #cecece; }
+
+.notifications-popup-list {
+  border-radius: 1rem;
+  background: rgba(0, 0, 0, 0); }
+
+.notification-close-button {
+  padding-left: 0.7rem;
+  padding-right: 0.7rem; }
+
+window {
+  border-radius: 1rem;
+  background: rgba(0, 0, 0, 0); }
+
+.left-menu-box {
+  background: #20004a;
+  border-radius: 1rem;
+  border: 2px solid #ffedae;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  transition-property: background;
+  transition-duration: 1.5s; }
+
+.left-menu-box:dir(rtl) {
+  margin-left: 0.6rem;
+  margin-right: 1rem;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3); }
+
+.left-menu-box:dir(ltr) {
+  margin-right: 0.6rem;
+  margin-left: 1rem;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.3); }
+
+.left-menu-header {
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  min-width: 23rem;
+  min-height: 12rem; }
+
+.profile-box {
+  background: linear-gradient(to right, rgba(147, 89, 255, 0.8), rgba(255, 0, 170, 0.6));
+  color: #20004a;
+  min-width: 20rem;
+  min-height: 8rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: -3rem;
+  border-radius: 1rem; }
+
+.profile-icon {
+  margin-top: -3rem; }
+
+.profile-label {
+  margin-top: 1rem;
+  font-family: 'VIP Rawy Regular';
+  font-size: xx-large; }
+
+/* -------------- Theme Box -------------- */
+.themes-box {
+  background: rgba(59, 33, 99, 0.8);
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem; }
+
+.theme-button-father, .theme-btn, .selected-theme {
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
+
+.selected-theme {
+  background: linear-gradient(to right, #9359ff, #ff00aa);
+  color: #20004a;
+  border-radius: 1rem; }
+
+.selected-theme:hover {
+  background: linear-gradient(to right, #ff9900, #ff6600);
+  color: #3b2163;
+  border-radius: 1rem; }
+
+.theme-btn {
+  border-radius: 1rem;
+  background: #20004a;
+  border-color: #20004a;
+  border-radius: 1rem; }
+
+.theme-btn:hover {
+  color: #20004a;
+  border-color: #ffedae;
+  border-radius: 1rem; }
+
+.theme-btn-icon {
+  font-family: "FantasqueSansM Nerd Font Propo";
+  min-width: 2rem; }
+
+.dynamic-theme-btn-icon {
+  font-family: "FantasqueSansM Nerd Font Propo";
+  min-width: 1.93rem; }
+
+.theme-btn-label {
+  min-width: 3rem; }
+
+.menu-button {
+  border-radius: 1rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  border: 0px;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background: #20004a;
+  font-family: "FantasqueSansM Nerd Font Propo";
+  padding-left: 0.8rem;
+  padding-right: 0.8rem; }
+
+.menu-button:dir(rtl) {
+  margin-left: 0.5rem; }
+
+.menu-button:dir(ltr) {
+  margin-right: 0.5rem; }
+
+.menu-button:hover {
+  background: #ffedae; }
+
+.power-box {
+  background: #0c0023;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem; }
+
+.notification-menu-header {
+  background-size: cover;
+  background-position: center;
+  padding: 1rem;
+  color: #cecece; }
+
+.horizontal-line {
+  background: #cecece;
+  min-height: 1px;
+  min-width: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #cecece; }
+
+.notification-center-button {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  background: #3b2163;
+  color: #c68df1;
+  border-radius: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem; }
+
+.notification-center-button:dir(ltr) {
+  padding-right: 0.7rem;
+  padding-left: 1rem; }
+
+.notification-center-button:dir(rtl) {
+  padding-left: 0.7rem;
+  padding-right: 1rem; }
+
+.notification-center-button:hover {
+  background-color: #ffedae;
+  color: #20004a; }
+
+.notification-this-is-all {
+  color: #cecece;
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+  min-width: 1rem;
+  min-height: 1rem; }
+
+.no-notification-icon {
+  margin-bottom: 0.5rem;
+  font-family: "FantasqueSansM Nerd Font Propo";
+  font-size: 3rem;
+  padding-right: 0.7rem; }
+
+.no-notification-text {
+  min-width: 22.5rem; }
+
+.notification-header-box {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: #0c0023;
+  color: #cecece;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem; }
+
+.notification-center-header-text {
+  min-width: 7.7rem; }
+
+.notification-center-header-mute {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-family: "FantasqueSansM Nerd Font Propo";
+  border-radius: 1rem;
+  padding-left: 1rem;
+  padding-right: 1.2rem;
+  margin-right: 0.5rem; }
+
+.notification-center-header-clear {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-family: "FantasqueSansM Nerd Font Propo";
+  border-radius: 1rem;
+  padding-left: 1rem;
+  padding-right: 1.2rem; }
+
+.notification-center-header-clear:dir(rtl) {
+  margin-right: 0.7rem; }
+
+.notification-center-header-clear:dir(ltr) {
+  margin-left: 1rem; }
+
+.notification-center-container {
+  min-height: 30rem;
+  border-radius: 1rem; }
+
+.music-wd-box {
+  background: linear-gradient(to right, #5812db, #8f1767);
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 1rem; }
+
+.music-wd-length {
+  font-family: "FantasqueSansM Nerd Font Propo"; }
+
+.left-menu-music-wd {
+  background: linear-gradient(to right, #5812db, #8f1767);
+  border-radius: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem; }
+
+.left-menu-music-wd:dir(rtl) {
+  padding-left: 1rem;
+  padding-right: 1.8rem; }
+
+.left-menu-music-wd:dir(ltr) {
+  padding-right: 1rem;
+  padding-left: 1.8rem; }
+
+.music-wd-row-one {
+  padding-right: 8px; }
+
+.music-wd-row-two {
+  margin-right: 8px;
+  margin-top: 8px; }
+
+.music-wd-row-three {
+  padding-top: 10px; }
+
+.music-wd-player {
+  background: #0c0023;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  color: #b8e8ff;
+  border-radius: 1rem;
+  min-width: 2rem; }
+
+.music-wd-player:dir(rtl) {
+  padding-left: 0.4rem;
+  padding-right: 0.7rem; }
+
+.music-wd-player:dir(ltr) {
+  padding-right: 0.4rem;
+  padding-left: 0.7rem; }
+
+.music-wd-title {
+  color: #0c0023;
+  margin-bottom: 0.5rem; }
+
+.music-wd-title:dir(rtl) {
+  padding-left: 0.5rem; }
+
+.music-wd-title:dir(ltr) {
+  padding-right: 0.5rem; }
+
+.music-wd-file-name {
+  color: #b8e8ff;
+  font-size: x-small; }
+
+.music-wd-main-button, .music-wd-button-stop, .music-wd-button-play, .music-wd-button {
+  min-width: 40px;
+  min-height: 40px;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out; }
+
+.music-wd-button {
+  font-family: "FantasqueSansM Nerd Font Propo";
+  border-radius: 50%;
+  background: linear-gradient(to right, #20004a, #20004a);
+  color: #b8e8ff; }
+
+.music-wd-button:hover {
+  background: linear-gradient(to top, #ffedae, #c68df1); }
+
+.music-wd-button-play {
+  background: linear-gradient(to right, #9359ff, #ff00aa);
+  border-radius: 1rem;
+  color: #0c0023;
+  min-width: 80px; }
+
+.music-wd-button-play:hover {
+  background: linear-gradient(to top, #ffedae, #c68df1); }
+
+.music-wd-button-stop {
+  background: linear-gradient(to right, #20004a, #20004a);
+  color: #b8e8ff;
+  border-radius: 1rem;
+  min-width: 80px; }
+
+.wd-fuzzy-day-box {
+  background: rgba(0, 0, 0, 0);
+  color: #3b2163; }
+
+.wd-fuzzy-day-icon {
+  font-size: 1.5rem;
+  margin: 0rem 1rem 0rem 1rem;
+  font-family: "FantasqueSansM Nerd Font Propo";
+  padding: 0.7rem 0rem 0rem 0rem; }
+
+.wd-fuzzy-day-text {
+  font-family: "VIP Rawy Regular";
+  font-size: 1.8rem; }
+
+.wd-time-now {
+  font-size: 1.5rem;
+  background: rgba(0, 0, 0, 0);
+  color: #432681;
+  font-family: "VEXA light R";
+  margin: 0rem 0rem 0.5rem 0rem; }
+
+.wd-fuzzy-time-box {
+  background: rgba(0, 0, 0, 0);
+  color: #20004a; }
+
+.wd-fuzzy-time-icon {
+  font-size: 1.5rem;
+  margin: 0rem 1rem 0rem 1rem;
+  font-family: "FantasqueSansM Nerd Font Propo"; }
+
+.wd-fuzzy-time-text {
+  font-size: 1.8rem;
+  font-family: "VIP Rawy Regular"; }
+
+.saying-wd-label {
+  min-width: 1rem;
+  font-size: 1.5rem;
+  color: #20004a;
+  background: rgba(184, 232, 255, 0.8);
+  font-family: "VIP Rawy Regular";
+  padding: 1rem;
+  margin: 0rem 1rem;
+  border-radius: 1rem; }
+
+.desktop-wd-separator {
+  background: linear-gradient(to bottom, #c68df1, #ea6220, #ffedae);
+  min-height: 1px;
+  min-width: 1px; }
+
+.desktop-wd-music-player-box {
+  padding: 1rem 0rem 0rem 0rem;
+  min-width: 30rem;
+  font-family: "VIP Rawy Regular";
+  font-size: 1.5rem; }
+
+.desktop-wd-music-player-title {
+  color: #ffedae; }
+
+.desktop-wd-music-player-artist {
+  color: #c68df1; }
+
+.bar-prayer-times-box {
+  font-size: 1em;
+  background: linear-gradient(to right, #3599ff, #6457f0);
+  color: #0c0023;
+  border-radius: 1rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem; }
+
+.bar-prayer-times-box:dir(rtl) {
+  padding-left: 0.7rem; }
+
+.bar-prayer-times-box:dir(ltr) {
+  padding-right: 0.7rem; }
+
+.bar-prayer-times-icon {
+  font-family: "FantasqueSansM Nerd Font Propo";
+  padding-left: 0.7rem;
+  padding-right: 0.7rem; }
+
+.prayer-times-menu-box {
+  background: #20004a;
+  border-radius: 1rem;
+  border: 2px solid #fdbbc4;
+  color: #cecece; }
+
+.prayer-times-menu-header {
+  background: #0c0023;
+  color: #cecece;
+  padding: 1rem;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem; }
+
+.prayer-time-item-box-class {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem; }
+
+.isha-item {
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem; }
+
+.next-prayer {
+  background: linear-gradient(to right, #9359ff, #ff00aa, #ffb92d);
+  color: #0c0023; }
+
+.prayer-times-menu-header-icon {
+  font-family: "FantasqueSansM Nerd Font Propo"; }
+
+.prayer-times-menu-header-title {
+  margin-right: 1rem; }
+
+.prayer-times-menu-header-title:dir(ltr) {
+  margin-right: 1.7rem; }
+
+.prayer-times-menu-header-title:dir(rtl) {
+  margin-left: 1.7rem; }
+
+.weather-menu-box {
+  min-width: 2rem;
+  background: #0c0023;
+  color: #cecece;
+  padding: 1rem 1rem;
+  padding-top: 2rem;
+  border: 2px solid #fdbbc4;
+  border-radius: 1rem; }
+
+.weather-menu-general-information-box {
+  margin: 0rem 1rem; }
+
+.weather-menu-detail-box {
+  margin: 0rem 1rem; }
+
+.weather-menu-today-box {
+  margin-top: 0.4rem; }
+
+.weather-row-two {
+  margin: 2rem 2rem; }
+
+.weather-menu-icon {
+  font-family: "FantasqueSansM Nerd Font Propo";
+  font-size: 7rem;
+  margin: 0rem 1rem; }
+
+.weather-menu-city {
+  font-size: 2rem;
+  margin-top: 0.3rem; }
+
+.weather-menu-value {
+  font-size: 2.2rem; }
+
+.weather-menu-sunrise {
+  font-size: 1.1rem; }
+
+.weather-menu-sunrise-icon {
+  font-size: 1.1rem;
+  font-family: "FantasqueSansM Nerd Font Propo";
+  margin: 0rem 0.5rem; }
+
+.weather-menu-sunset {
+  font-size: 1.1rem; }
+
+.weather-menu-sunset-icon {
+  font-size: 1.1rem;
+  font-family: "FantasqueSansM Nerd Font Propo";
+  margin: 0rem 0.5rem; }
+
+.weather-menu-today-time {
+  font-size: 1.1rem; }
+
+.weather-menu-today-weather {
+  font-size: 1.1rem;
+  padding: 0rem 1.2rem; }
+
+.weather-menu-today-temp {
+  font-size: 1.3rem;
+  font-family: "FantasqueSansM Nerd Font Propo"; }
+
+.weather-menu-latest-update {
+  font-size: 1.1rem; }
+
+.weather-menu-feels-like {
+  font-size: 1.3rem; }
+
+.weather-menu-humidity {
+  font-size: 1.3rem; }
+
+.weather-menu-pressure {
+  font-size: 1.3rem; }
+
+.weather-menu-wind {
+  font-size: 1.3rem; }
+
+.weather-menu-clouds {
+  font-size: 1.3rem; }
+
+.weather-menu-min-max {
+  font-size: 1.3rem; }
+
+.applications-box {
+  background: #20004a;
+  border-radius: 1rem; }
+
+.app-search-box {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  min-width: 23rem;
+  min-height: 12rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  /* Dark overlay using background color */
+  background-blend-mode: darken;
+  /* Blend mode to darken the image */ }
+
+.app-search {
+  margin: 1.2rem;
+  margin-top: 5rem; }
+
+.applications-header-title {
+  font-family: 'VIP Rawy Regular';
+  font-size: xx-large;
+  color: #fffbff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); }
+
+.information-widget-header {
+  font-size: 2rem;
+  margin-bottom: 1rem; }
+
+.information-widget-title {
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem; }
+
+.information-widget-subtitle {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  min-width: 7rem; }
+
+.information-widget-subtext {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  min-width: 9.7rem; }
+
+.un-hover:hover {
+  all: unset; }
+
+.icon-font {
+  font-family: "FantasqueSansM Nerd Font Propo"; }
+
+.small-shadow {
+  transition-property: background;
+  transition-duration: 0.5s; }
+
+.shadow {
+  transition-property: background;
+  transition-duration: 0.5s; }
+
+.small-shadow:dir(rtl) {
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1); }
+
+.small-shadow:dir(ltr) {
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1); }
+
+.shadow:dir(rtl) {
+  box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.3); }
+
+.shadow:dir(ltr) {
+  box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.3); }
+
+button {
+  background: #3b2163;
+  color: #b8e8ff;
+  border-color: #3b2163;
+  border-radius: 1rem;
+  padding: 4px 14px;
+  border: none;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out; }
+
+/* Shadow when clicking */
+button:active {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); }
+
+button:hover {
+  background: #ffedae;
+  color: #20004a;
+  border-color: #ffedae;
+  border-radius: 1rem;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); }
+
+menu {
+  border: 2px #fdbbc4 solid;
+  background: #20004a;
+  color: #cecece;
+  border-radius: 1rem;
+  padding: 0.3rem;
+  margin-top: 2rem; }
+
+menuitem {
+  border-radius: 1rem;
+  background: #20004a;
+  color: #cecece; }
+
+menuitem:disabled {
+  background: rgba(206, 206, 206, 0.1);
+  color: rgba(206, 206, 206, 0.5); }
+
+menuitem:hover {
+  background: rgba(206, 206, 206, 0.2);
+  color: #cecece; }

@@ -1,0 +1,15 @@
+2024/06/23-14:13:00.958 d04 Reusing MANIFEST /home/dxomg/.config/vesktop/sessionData/IndexedDB/https_discord.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/06/23-14:13:00.958 d04 Recovering log #4
+2024/06/23-14:13:00.963 d04 Reusing old log /home/dxomg/.config/vesktop/sessionData/IndexedDB/https_discord.com_0.indexeddb.leveldb/000004.log 
+2024/06/23-14:13:10.348 d05 Level-0 table #8: started
+2024/06/23-14:13:10.359 d05 Level-0 table #8: 43491 bytes OK
+2024/06/23-14:13:10.371 d05 Delete type=0 #4
+2024/06/23-14:13:10.372 d05 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2024/06/23-14:13:10.372 d05 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x17\x00V\x00e\x00n\x00c\x00o\x00r\x00d\x00_\x00e\x00x\x00i\x00s\x00t\x00i\x00n\x00g\x00P\x00l\x00u\x00g\x00i\x00n\x00s' @ 87 : 1
+2024/06/23-14:13:10.372 d05 Compacting 1@1 + 1@2 files
+2024/06/23-14:13:10.382 d05 Generated table #9@1: 21 keys, 3209 bytes
+2024/06/23-14:13:10.382 d05 Compacted 1@1 + 1@2 files => 3209 bytes
+2024/06/23-14:13:10.395 d05 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/06/23-14:13:10.395 d05 Delete type=2 #5
+2024/06/23-14:13:10.395 d05 Delete type=2 #8
+2024/06/23-14:13:10.396 d05 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x17\x00V\x00e\x00n\x00c\x00o\x00r\x00d\x00_\x00e\x00x\x00i\x00s\x00t\x00i\x00n\x00g\x00P\x00l\x00u\x00g\x00i\x00n\x00s' @ 87 : 1 .. (end); will stop at (end)

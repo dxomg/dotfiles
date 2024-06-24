@@ -1,0 +1,22 @@
+2024-06-18 23:01:16.350 [info] Started initializing default profile extensions in extensions installation folder. file:///home/dxomg/.vscode/extensions
+2024-06-18 23:01:16.582 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/dxomg/.vscode/extensions
+2024-06-18 23:01:16.590 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/dxomg/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/dxomg/.vscode/extensions/extensions.json.vsctmp'
+    at c.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-18 23:01:37.849 [info] Getting Manifest... yy0931.vscode-sqlite3-editor
+2024-06-18 23:01:37.860 [info] Installing extension: yy0931.vscode-sqlite3-editor vscode-userdata:/home/dxomg/.vscode/extensions/extensions.json
+2024-06-18 23:01:45.959 [info] Extension signature verification result for yy0931.vscode-sqlite3-editor: UnknownError. Executed: true. Duration: 41ms.
+2024-06-18 23:01:47.238 [info] Extracted extension to file:///home/dxomg/.vscode/extensions/yy0931.vscode-sqlite3-editor-1.0.188: yy0931.vscode-sqlite3-editor
+2024-06-18 23:01:47.271 [info] Renamed to /home/dxomg/.vscode/extensions/yy0931.vscode-sqlite3-editor-1.0.188
+2024-06-18 23:01:47.371 [info] Extension installed successfully: yy0931.vscode-sqlite3-editor vscode-userdata:/home/dxomg/.vscode/extensions/extensions.json
+2024-06-18 23:01:47.376 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/dxomg/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/dxomg/.vscode/extensions/extensions.json.vsctmp'
+    at c.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)

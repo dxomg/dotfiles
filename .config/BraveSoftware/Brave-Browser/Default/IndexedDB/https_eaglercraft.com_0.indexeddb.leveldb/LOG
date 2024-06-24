@@ -1,0 +1,6 @@
+2024/06/19-22:57:52.542 a3bb1 Creating DB /home/dxomg/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_eaglercraft.com_0.indexeddb.leveldb since it was missing.
+2024/06/19-22:57:52.566 a3bb1 Reusing MANIFEST /home/dxomg/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_eaglercraft.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/06/19-22:59:27.904 a3bb2 Level-0 table #5: started
+2024/06/19-22:59:27.912 a3bb2 Level-0 table #5: 890 bytes OK
+2024/06/19-22:59:27.924 a3bb2 Delete type=0 #3
+2024/06/19-22:59:27.924 a3bb2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

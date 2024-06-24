@@ -1,0 +1,13 @@
+2024/06/22-03:34:58.075 33a0 Reusing MANIFEST /home/dxomg/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_apkcombo.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/06/22-03:34:58.075 33a0 Recovering log #6
+2024/06/22-03:34:58.076 33a0 Reusing old log /home/dxomg/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_apkcombo.com_0.indexeddb.leveldb/000006.log 
+2024/06/22-03:34:58.264 33a0 Level-0 table #10: started
+2024/06/22-03:34:58.279 33a0 Level-0 table #10: 657 bytes OK
+2024/06/22-03:34:58.338 33a0 Delete type=0 #6
+2024/06/22-03:34:58.338 339d Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 116 : 1
+2024/06/22-03:34:58.338 339d Compacting 1@0 + 1@1 files
+2024/06/22-03:34:58.398 339d Generated table #11@0: 13 keys, 643 bytes
+2024/06/22-03:34:58.398 339d Compacted 1@0 + 1@1 files => 643 bytes
+2024/06/22-03:34:58.421 339d compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/22-03:34:58.422 339d Delete type=2 #10
+2024/06/22-03:34:58.422 339d Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 116 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
